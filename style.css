@@ -1,41 +1,51 @@
 
+body{
+    position: relative;
+    background-color: rgb(252, 232, 244);
+}
 #title{
     font-style: italic;
     color: rgba(182, 104, 255, 0.658);
     border-style: hidden;
     text-shadow: black -3px 2px;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 img{
 border-radius: 100% ;
 width: 10%; 
-border: 3px solid rgb(207, 45, 199);
+border: 4px solid rgb(225, 105, 219);
 text-shadow: black;
 }
-
-body{
-    background-color: rgb(252, 232, 244);
+a{
+    text-decoration: none;
+    color: rgb(31, 9, 196);
+    
 }
+
+
 .link{
-    border: 5px solid rgb(207, 45, 199) ;
+    border: 3px solid rgb(243, 116, 236) ;
     margin: auto;
-    width: 15%;
-    background-color: rgb(234, 164, 236);
-    font-style: italic;
-    border-radius: 20px;
+    width: 30%;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 8px;
     font-size: large;
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.6) 1px -1px 2px;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px -1px 1px;
+    overflow: hidden;
     }
-
-#logo{
-    text-align: center;
-    width: 43%;
-    text-align: center;
-    margin: auto auto;
-    
    
-}
+.link:hover{
+    background-color: rgb(252, 202, 231);
+     
+    }
+.link :hover{
+        color:  rgb(255, 255, 255);
+        text-shadow: rgba(0, 0, 0, 0.6) 2px -2px 1px;
+       
+    }
     
     
 
