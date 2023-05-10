@@ -1,8 +1,41 @@
+:root {
+   --body-bg:var(--body-bg)#fafafa;
+   --body-color:var(--body-color)#222;
+   
+}
+.dark-mode:root{
+    --body-bg:var(--body-bg)#000000;
+    --body-color:var(--body-color)#ffffff;
+    
+}
 
 body{
-    position: relative;
-    background-color: rgb(252, 232, 244);
+    
+   position: relative; 
+   background-color: rgb(252, 232, 244); 
+   background-color: var(--body-bg);
+   color: var(--body-color)
 }
+.dark-mode {
+    background-color: black;
+
+} 
+input{
+    visibility: hidden;
+    text-align: center;
+}
+label{
+    position: absolute;
+    margin-top: 35px;
+    color: #383232;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.6) 3px -4px 3px;
+    text-align: center;
+    left: 46%;
+}
+
+
 #title{
     font-style: italic;
     color: rgba(182, 104, 255, 0.658);
@@ -46,6 +79,24 @@ a{
         text-shadow: rgba(0, 0, 0, 0.6) 2px -2px 1px;
        
     }
+  body {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+
+     
+
+   
+
+
+    
+   
     
     
 
