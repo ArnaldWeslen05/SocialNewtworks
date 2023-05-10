@@ -12,7 +12,7 @@
 body{
     
    position: relative; 
-   background-color: rgb(252, 232, 244); 
+   background-color: rgb(235, 195, 219); 
    background-color: var(--body-bg);
    color: var(--body-color)
 }
@@ -79,15 +79,7 @@ a{
         text-shadow: rgba(0, 0, 0, 0.6) 2px -2px 1px;
        
     }
-  body {
-  background-color: white;
-  color: black;
-}
-
-body.dark {
-  background-color: black;
-  color: white;
-}
+ 
 
 
      
